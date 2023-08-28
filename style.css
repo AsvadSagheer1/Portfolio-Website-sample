@@ -219,11 +219,12 @@ color: white;
 #footer-right a {
     color: #fff;
     text-decoration: none;
+    font-size: 15px;
     transition: all 0.1s;
     display: inline-block;
 }
 
 #footer-right a:hover {
-    scale: 1.1;
+    scale: 1.05;
     transition: all 0.1s;
 }
