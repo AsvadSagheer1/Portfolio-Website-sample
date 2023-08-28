@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D5FFE4;
+    transition: all 0.1s;
+    color: #435334;
+}
+
+body a {
+    transition: all 0.1s;
+    text-decoration: none;
+    display: inline-block;
+}
+body a:hover {
+    scale: 1.05;
+    transition: all 0.1s;
+}
+
+hr {
+    width: 10%;
+    margin: 20px auto;
+    border: 0px;
+    border-top: 8px dotted #A084E8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1vh 2vw;
+    background-color: #6F61C0;
+    align-items: center;
+    position: sticky;
+}
+
+#left-nav {
+    width: 60px;
+}
+
+#left-nav img {
+    width: 100%;
+}
+
+#center-nav {
+    display: flex;
+    gap: 40px;
+}
+
+#center-nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: all 0.1s;
+}
+
+#center-nav a:hover {
+    scale: 1.1;
+    transition: all 0.1s;
+}
+
+#right-nav {
+    display: flex;
+    gap: 30px;
+}
+
+#right-nav i {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    transition: all 0.1s;
+}
+
+#right-nav i:hover {
+    scale: 1.1;
+    transition: all 0.1s;
+}
+
+#hero {
+    display: flex;
+    padding: 2vh 2vw;
+}
+
+#hero-left {
+    width: 20%;
+}
+
+#hero-left img {
+    border-radius: 50%;
+}
+
+#hero-right {
+    align-self: center;
+    line-height: 2;
+}
+
+#hero-right a {
+    text-decoration: none;
+    color: #435334;
+}
+
+#edu {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    line-height: 1.5;
+}
+
+#edu a {
+    color: #435334;
+}
+
+#edu li {
+    list-style: none;
+}
+
+#work {
+    padding: 2vh 2vw;
+    line-height: 1.5;
+}
+
+#work-content {
+    display: flex;
+    gap: 30px;
+}
+
+#work a {
+    color: #435334;
+}
+
+#skills {
+    padding: 2vh 2vw;
+    line-height: 1.5;
+}
+
+#skills-content {
+    display: flex;
+    gap: 30px;
+}
+
+#hobbies {
+    padding: 2vh 2vw;
+    line-height: 1.5;
+}
+
+#contact {
+    padding: 2vh 2vw;
+    line-height: 1.5;
+}
+
+#contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#form input,
+#form textarea {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    width: 400px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    color: #435334;
+}
+
+#form button {
+    background-color: #A084E8;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 15px;
+    color: white;
+    width: 70px;
+    margin-top: 10px;
+}
+#form button a {
+color: white;
+}
+
+#form button:hover {
+    background-color: #6F61C0;
+    transition: all 0.3s;
+}
+
+#contact label {
+    margin-top: 10px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    background-color: #6F61C0;
+    padding: 2vh 2vw;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-right a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.1s;
+    display: inline-block;
+}
+
+#footer-right a:hover {
+    scale: 1.1;
+    transition: all 0.1s;
+}
